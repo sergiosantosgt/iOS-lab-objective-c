@@ -10,6 +10,10 @@
 @interface ViewController : UIViewController
 
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+- (IBAction)pressMe:(id)sender;
+
 
 @end
 

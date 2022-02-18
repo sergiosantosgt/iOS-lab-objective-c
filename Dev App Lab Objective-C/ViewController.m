@@ -16,7 +16,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.label.text = @"Init";
 }
 
 
+- (IBAction)pressMe:(id)sender {
+    NSLog(@"TEST");
+    self.label.text = @"Press";
+}
 @end
